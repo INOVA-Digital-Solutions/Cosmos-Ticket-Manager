@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Token do bot
-BOT_TOKEN = os.getenv('DISCORD_TOKEN', 'MTQzMTM3MTQzODU4NTE1MTUyOQ.GmWyg7.4ZVzol_UVC14b4UB54SAJEywtWGIE8hbHcr6ao')
+BOT_TOKEN = os.getenv('DISCORD_TOKEN', 'token')
 
 # Cores (em hexadecimal)
 CORES = {
