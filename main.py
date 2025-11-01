@@ -244,4 +244,4 @@ class SelectPanelView(disnake.ui.View):
         await inter.response.edit_message(embed=embed, view=MainMenuView())
 
 if __name__ == "__main__":
-    bot.run("token")
+    bot.run(BOT_TOKEN)
